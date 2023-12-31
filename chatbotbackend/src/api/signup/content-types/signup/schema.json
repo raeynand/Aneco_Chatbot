@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "signups",
+  "info": {
+    "singularName": "signup",
+    "pluralName": "signups",
+    "displayName": "Sign up",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ANECO_ACCOUNT_NUMBER": {
+      "type": "biginteger",
+      "unique": true,
+      "required": false
+    },
+    "SOA_NUMBER": {
+      "type": "biginteger",
+      "unique": true,
+      "required": false
+    },
+    "OR_NUMBER": {
+      "type": "biginteger",
+      "unique": true,
+      "required": false
+    }
+  }
+}

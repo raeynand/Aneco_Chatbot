@@ -1,0 +1,170 @@
+/* src/components/Chatbot.css */
+
+.chatbot-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 430px;
+  height: 790px;
+  flex-shrink: 0;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.rectangle-3 {
+  width: 430px;
+  height: 53px;
+  flex-shrink: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #F5A445;
+  z-index: 1;
+}
+
+.rectangle-3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 35px;
+  height: 2px;
+  background: white;
+}
+
+.text {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.bars-main {
+  display: flex;
+  width: 387px;
+  height: 60px;
+  padding: 12px 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  background: #E5E5E5;
+  position: fixed;
+  top: 53px; /* Adjust the top position to match the rectangle-3 height */
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2; /* Set a higher z-index to ensure it overlaps other elements */
+}
+
+.logo2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 1000px;
+}
+
+.logo3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 1000px;
+}
+
+.bot-wrapper {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  width: 700px;
+}
+
+.my-chatbot {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Set the width to 100% for responsiveness */
+  max-width: 400px; /* Set the maximum width of the container */
+  margin: 0 auto;
+  margin-top: 120px; /* Adjust the top margin to leave space below bars-main */
+  border: none;
+
+  /* Add any other custom styles for the container */
+}
+
+.my-chatbot .rsc-container {
+  position: sticky;
+  background: #E5E5E5;
+  margin: -15px;
+  margin-top: 149px;
+  width: 428px; /* Adjust the width as needed */
+  height: 820px;
+  overflow: hidden;
+}
+
+.my-chatbot .rsc-content::-webkit-scrollbar {
+  width: 0; /* Hide the scrollbar for WebKit browsers (Chrome, Safari) */
+}
+
+.my-chatbot .rsc-content {
+  scrollbar-width: none; /* Hide the scrollbar for Firefox */
+  height: 615px;
+
+}
+
+.my-chatbot .rsc-header {
+  /* Styles for the chatbot header */
+  display: none;
+}
+
+.my-chatbot .rsc-ts-bubble {
+  /* Styles for the chat bubble */
+  background-color: #F5A445; /* Set the background color of the chat bubble */
+  color: white; /* Set the text color of the chat bubble */
+}
+
+.my-chatbot .rsc-os-options {
+  position: absolute;
+  bottom: 71px; /* Adjust the distance from the bottom */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  color: #F5A445; /* Set the color of the options */
+}
+
+.my-chatbot .rsc-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px; /* Add padding for better visibility */
+}
+
+.my-chatbot .rsc-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 500px; /* Adjust the width as needed */
+  padding: -20px; /* Adjust the padding as needed */
+}
+
+.my-chatbot .rsc-input {
+  align-self: flex-end;
+  background-color: #E5E5E5;
+  color: black;
+  padding: 20px 15px; /* Adjust the padding to increase/decrease button size */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.my-chatbot .rsc-submit-button {
+  margin-right: 120px; /* Adjust the margin as needed */
+  height: 85px; /* Adjust the height as needed */
+}
+
+
+/* Define other styles as needed */
+
+

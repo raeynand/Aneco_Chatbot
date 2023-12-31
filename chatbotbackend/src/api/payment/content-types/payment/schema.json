@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "Payments",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Transaction_ID": {
+      "type": "string"
+    },
+    "Amount": {
+      "type": "integer"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Pending",
+        "Success",
+        "Failed"
+      ]
+    },
+    "Payment_Method": {
+      "type": "enumeration",
+      "enum": [
+        "Gcash",
+        "Paymaya"
+      ]
+    },
+    "Date": {
+      "type": "datetime"
+    }
+  }
+}

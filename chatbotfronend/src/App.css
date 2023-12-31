@@ -1,0 +1,29 @@
+/* src/index.css or src/App.css */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(196, 170, 99);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden; /* Ensure no scrolling on the body */
+  background-image: radial-gradient(#67f0c3 2px, transparent 1px);
+  background-size: 45px 45px;
+}
+
+.container {
+  position: absolute;
+  left: 50%; /* Center the container horizontally */
+  top: 50%; /* Center the container vertically */
+  transform: translate(-50%, -50%); /* Centering trick */
+  width: 428px;
+  height: 940px;
+  background-color: rgb(255, 255, 255);
+  background: #F6F1F1;
+  border-radius: 30px;
+}
+
+/* Add more global styles as needed */

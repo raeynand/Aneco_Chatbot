@@ -1,0 +1,57 @@
+/* src/components/Homepage.css */
+
+.homepage-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text content */
+    height: auto; 
+    background-color: #ffffff;/* Ensure the container takes up the full viewport height */
+    border-radius: 30px;
+  }
+  
+  .homepage-title {
+    font-size: 40px;
+    color: #F5A445;
+    font-family: 'Syne', sans-serif;
+    order: -1; /* Move the title to the top */
+    margin-bottom: 20px;
+    width: 375px;
+    height: 42px;
+    
+  }
+
+  .homepage-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    margin-top: 20px; /* Adjust as needed */
+  }
+
+  .rounded-box {
+    background-color: rgb(224, 164, 0);
+    padding: 0px 20px;; /* Adjust padding as needed */
+    border: none;
+    border-radius: 20px; /* Adjust border radius for rounded corners */
+}
+
+.talk-to-me {
+    font-size: 16px;
+    color: white;
+}
+  
+  .homepage-button {
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: rgb(224, 164, 0);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 50px; /* Adjust as needed */
+    cursor: pointer;
+  }
+  

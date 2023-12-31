@@ -1,0 +1,52 @@
+/* src/components/SecondPage.css */
+
+.second-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .welcome-image {
+    max-width: 100%;
+    margin-top: -40px;
+  }
+  
+  .welcome-text-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-text-container p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+ .button-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 30px;
+   padding: 10px 50px;
+ }
+
+  
+.login-button2 {
+    background-color: #F5A445;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px 85px;
+    display: inline-block;
+}
+
+.create-account-button {
+  background-color: #ffffff;
+  color: #F5A445;
+  border: 2px solid #F5A445;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px 50px;
+}
+  
